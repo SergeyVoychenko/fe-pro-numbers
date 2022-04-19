@@ -14,9 +14,9 @@ const square = getSquareOfCircle(4);
 
 console.log(square); // 50.26548245743669
 
-const fixedValue = getFixedValue(3.2345, 3);
+const fixedValue = getFixedValue(3.2345, 0);
 
-console.log(fixedValue); // 2.235
+console.log(fixedValue); // 3.235
 
 console.log(getFlooroCeil(3.235)); // 4
 console.log(getFlooroCeil(4.235)); // 4
